@@ -1,0 +1,22 @@
+{
+  "name": "babel-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:app": "babel src --config-file ./babel.app.config.json -d lib",
+    "build:library": "babel src --config-file ./babel.library.config.json -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1"
+  }
+}
